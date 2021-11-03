@@ -15,9 +15,3 @@ readStream.on('data', function(c){
 function show(){
     console.log(content);
 }
-
-// асинхронное чтение
-// fs.readFile('text.txt', 'utf8', function (error, data) {
-//   if (error) throw error // если возникла ошибка
-//   console.log(data) // выводим считанные данные
-// }
