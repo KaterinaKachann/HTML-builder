@@ -18,13 +18,10 @@ fs.rm(filesCopyPath, { recursive: true }, function () {
           filesPath + "/" + file.name,
           filesCopyPath + "/" + file.name,
           function () {}
-        );
-    
-        
+        );      
       });
     });
   });
-
 });
 
 
